@@ -1,0 +1,39 @@
+@import '../main/variable';
+
+nav{
+    width: 100%;
+    margin: auto auto !important;
+            // grid-template-rows: auto auto auto;
+            // display: grid;
+    ul{
+        display: grid;
+        grid-template-columns: auto auto   auto auto;
+        // grid-template-rows: auto auto auto;
+        justify-content: space-evenly;
+        // gap: 10px 10px;
+        padding: $mainpadding;
+        // line-height: 40%;
+        
+
+        li{
+            a{
+                text-decoration: none;
+                color: $fontColor;
+                border-radius: 10px;
+                transition-duration: 0.5s;
+                &:hover{
+                    color: $backgroundColor !important;
+                    background-color: $fontColor !important;
+                }
+            }
+            width: auto ;
+            // color: $fontColor;
+
+            list-style: none;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 30px;
+            // background-color: rgb(110, 107, 107) !important;
+            
+        }
+    }}

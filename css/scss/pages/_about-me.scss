@@ -1,0 +1,24 @@
+@import '../main/variable';
+
+section.about{
+  
+        // background-color: $sactionColor;
+        margin: 0px;
+
+
+        div{
+        margin: $mainmargin;
+        text-align: center;
+
+            h3{
+                color: $backgroundColor;
+
+            }
+            p{
+                color: $backgroundColor;
+                font-size: 20px;
+
+            }
+        }
+
+}

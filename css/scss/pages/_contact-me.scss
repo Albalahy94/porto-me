@@ -1,0 +1,100 @@
+@import '../main/variable';
+.contact-me{
+background-color: $sactionColor;
+div{
+    
+width: 80%;
+margin-left: 10% !important;
+div{
+        margin:  auto   !important;
+        padding: $mainpadding;
+
+        div.form{
+            display: grid;
+            width: 80%;
+            // justify-content: space-around;
+            grid-template-columns:  auto;
+            label{
+                width: 100%;
+                font-size: 20px;
+                color: gray;
+                padding: $mainpadding ;
+                text-align: center;
+
+            }
+            input , textarea{
+                width: 100%;
+                // outline: gray 10px !important;
+                border: gray 3px solid;
+                border-radius: 10px ;
+
+
+            }
+            textarea{
+                height: 100px;
+                overflow: auto;
+
+            }
+            button{
+                background-color: $backgroundColor;
+                color: cadetblue;
+                border-radius: 20px 10px ;
+                margin: $mainmargin;
+                padding: $mainpadding;
+                font-size: 25px;
+                font-weight: bold;
+                &:hover{
+                    background-color: $fontColor;
+                    color: $backgroundColor;
+        
+                }
+    
+            }
+        }
+    div.loc-fol{
+        display: grid;
+        grid-template-columns: auto auto;
+        div.location{
+            h3{
+                color: $backgroundColor;
+                font-weight: bold;
+                text-align: center;
+ 
+            }
+            p{
+                color: $fontColor;
+                font-weight: bold;
+                text-align: center;
+ 
+            }
+        }
+        div.Follow{
+          
+            h3{
+               color: $backgroundColor;
+               font-weight: bold;
+               text-align: center;
+                }
+                div{
+                    display: grid;
+                    grid-template-columns:  auto auto auto auto;
+                    justify-content: center;
+                    column-gap: 20px;
+                    a {
+                        i{
+                            font-size: 50px !important;
+                            color: $fontColor;
+                            &:hover{
+                                color: $backgroundColor;
+                                
+                            }
+    
+                     }
+                    }
+            }
+    }
+        
+            } 
+    }
+}
+}

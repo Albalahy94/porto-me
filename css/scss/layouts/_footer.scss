@@ -1,0 +1,12 @@
+@import '../main/variable';
+
+
+footer{
+    div{
+        font-size: 15px;
+        text-align: center;
+        padding: $mainpadding;
+        color: gray;
+        background-color: rgb(61, 60, 60);
+    }
+}

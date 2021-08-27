@@ -1,0 +1,30 @@
+@import '../main/variable';
+
+header{
+    background-color: $backgroundColor;
+    width: auto;
+    margin: auto auto;
+    display: grid;
+    grid-template-columns: auto auto;
+div{
+    display: grid;
+
+    grid-template-rows: auto  auto;
+    // gap: 10px 10px;
+    grid-template-columns: auto  auto;  
+    margin: $mainmargin;
+    
+    h1{
+        color: $fontColor;
+        margin: $mainmargin;
+    }   
+    img{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+    }
+}
+
+ 
+ 
+ }

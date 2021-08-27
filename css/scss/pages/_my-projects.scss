@@ -1,0 +1,48 @@
+@import '../main/variable';
+
+.my-projects{
+    .container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin: $mainmargin;
+        div.projects{
+            // position: relative;
+            // display: block;
+        a{
+            color: $backgroundColor;
+            text-decoration: none;
+            // position: absolute;
+            // bottom: 0;
+            text-align: center;
+            // 
+            // color: #fff;
+            &:hover{
+                opacity: 0.75;
+                background: rgba(244, 98, 58, 0.9);
+                // z-index: 1;
+                transition: all 0.25s ease;
+                text-align: center;}
+                
+            h6{
+                font-size: 30px;
+                // text-align: center;
+                margin: $mainmargin;
+                padding: $mainpadding;
+                
+            }
+            img{
+                height: 240px;
+                width: auto;
+                border-radius: 10px;
+
+            }
+            p{
+                font-size: 10px;
+
+            
+            }
+          
+        }
+                }
+    }
+}
